@@ -30,8 +30,8 @@ setlocal expandtab     " hittin <Tab> in insert mode will produce the approp-
 " $ cd ~/.vim/bundle
 " $ git clone https://github.com/scrooloose/syntastic.git
 " "
-let g:syntastic_python_compiler_options = '-Wall'
-
+"" let g:syntastic_python_compiler_options = '-Wall'
+let g:syntastic_python_checkers = ['flake8']
 
 "
 " -------- Jedi-Vim Plugin
