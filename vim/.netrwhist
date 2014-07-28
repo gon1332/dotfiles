@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/gon1332'
+let g:netrw_dirhist_2='/home/gon1332/CUDA'
+let g:netrw_dirhist_3='/home/gon1332'
+let g:netrw_dirhist_4='/home/gon1332/.dropbox'
+let g:netrw_dirhist_5='/home/gon1332/.vim/ftplugin'
+let g:netrw_dirhist_6='/home/gon1332/.vim/bundle/ultisnips'
+let g:netrw_dirhist_7='/home/gon1332/.vim/bundle/vim-snippets/snippets'
+let g:netrw_dirhist_8='/home/gon1332/.vim/bundle/vim-snippets/UltiSnips'
