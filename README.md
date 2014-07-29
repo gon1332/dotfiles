@@ -3,8 +3,8 @@
 Collection of dotfiles that I use for `zsh`, `vim` and `bash`.
 
 ## Vim features
- * C IDE
- * Python 3 IDE
+ * C IDE (using ftplugin)
+ * Python 3 IDE (using ftplugin)
  * Other settings
 
 ## Zsh features
