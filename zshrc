@@ -78,3 +78,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Add lib/python subdir for my Python libraries to my Python path
+PYTHONPATH=$HOME/lib/python
+EDITOR=vim
+
+export PYTHONPATH EDITOR
