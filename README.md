@@ -17,5 +17,5 @@ Nothing yet.
 
 In order to install them copy and paste in your `home` directory:
 
-    chmod +x makesymlinks.sh
-    ./makesymlinks.sh
+    chmod +x install.sh
+    ./install.sh
