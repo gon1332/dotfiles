@@ -22,7 +22,8 @@ setlocal expandtab     " hittin <Tab> in insert mode will produce the approp-
 "
 " -------- Save and run python with F2 key
 " "
-map <f2> :w\|!python3 %
+map <f1> :w\
+map <f2> !python3 %
 
 
 " =====================
