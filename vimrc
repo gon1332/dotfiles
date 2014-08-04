@@ -109,9 +109,9 @@ set undolevels=700
 
 " Global Tab settings. May overriden by ftplugin
 " Real programmers don't use TABs but spaces
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
 set shiftround
 set expandtab
 
