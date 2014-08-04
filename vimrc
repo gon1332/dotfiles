@@ -98,8 +98,8 @@ highlight ColorColumn ctermbg=233
 
 
 " easier formatting of paragraphs
-"" vmap Q gq
-"" nmap Q gqap
+vmap Q gq
+nmap Q gqap
 
 
 " Useful settings
