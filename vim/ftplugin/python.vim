@@ -20,9 +20,8 @@ setlocal expandtab     " hittin <Tab> in insert mode will produce the approp-
                        " riate number of spaces
 
 "
-" -------- Save and run python with F2 key
+" -------- Run python with F2 key
 " "
-map <f2> :w %
 map <f3> :!python3 %
 
 
