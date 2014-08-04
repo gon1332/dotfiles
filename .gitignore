@@ -2,4 +2,4 @@
 *.pyc
 *~
 /oh-my-zsh/oh-my-zsh/
-vim/.netrwhist/
+vim/.netrwhist
