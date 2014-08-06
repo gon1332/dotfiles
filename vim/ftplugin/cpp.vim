@@ -29,7 +29,6 @@ setlocal shiftwidth=4  " how many columns text is indented with reindent ops
 " $ cd ~/.vim/bundle
 " $ git clone https://github.com/scrooloose/syntastic.git
 " "
-let g:syntastic_cpp_checkers = ['gcc']
 let g:syntastic_cpp_check_header = 1
 let g:syntastic_cpp_compiler_options = '-Wall -Wextra -std=c++11'
 
