@@ -1,5 +1,5 @@
 *.[oa]
 *.pyc
 *~
-./oh-my-zsh/oh-my-zsh
-./vim/.netrwhist
+./.oh-my-zsh/oh-my-zsh
+./.vim/.netrwhist
