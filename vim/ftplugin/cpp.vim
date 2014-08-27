@@ -1,5 +1,5 @@
 " =============================================================================
-" =========================     Vim as C IDE     ==============================
+" =========================    Vim as C++ IDE    ==============================
 " =============================================================================
 "
 "" Maintained by
@@ -9,14 +9,14 @@
 
 "
 " -------- Use spaces instead of tabs
-" Use 8 spaces instead of tabs as recommended by my style
+" Use 4 spaces instead of tabs as recommended by my style
 " "
 setlocal tabstop=4     " how many columns a tab counts for
 setlocal softtabstop=4 " how many columns vim uses on <Tab> in insert mode
 setlocal shiftwidth=4  " how many columns text is indented with reindent ops
                        " (<< and >>)
-"" setlocal shiftround
-"" setlocal expandtab     " hittin <Tab> in insert mode will produce the approp-
+setlocal shiftround
+setlocal expandtab     " hittin <Tab> in insert mode will produce the approp-
                        " riate number of spaces
 
 " =====================
