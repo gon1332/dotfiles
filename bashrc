@@ -113,3 +113,6 @@ PYTHONPATH=$HOME/lib/python
 EDITOR=vim
 
 export PYTHONPATH EDITOR
+
+# added by Anaconda 2.0.1 installer
+export PATH="/home/gon1332/anaconda/bin:$PATH"

@@ -1,4 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/gon1332/Development/Repositories/fort320/include/IR'
-let g:netrw_dirhist_2='/home/gon1332/interfaces & implementations/except'
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/gon1332/click_modular_router/click/elements'
+let g:netrw_dirhist_2='/home/gon1332/click_modular_router/click/elements/standard'
+let g:netrw_dirhist_3='/home/gon1332/Dropbox/Προχωρημένα Θέματα Δικτύων/elements'
+let g:netrw_dirhist_4='/home/gon1332/dotfiles'
+let g:netrw_dirhist_5='/home/gon1332/dotfiles/vim'
+let g:netrw_dirhist_6='/home/gon1332/dotfiles/vim/ftplugin'
