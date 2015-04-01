@@ -29,7 +29,10 @@ setlocal expandtab     " hittin <Tab> in insert mode will produce the approp-
 " $ cd ~/.vim/bundle
 " $ git clone https://github.com/scrooloose/syntastic.git
 " "
+let g:syntastic_cpp_compiler = 'g++'
 let g:syntastic_cpp_check_header = 1
+let g:syntastic_cpp_no_include_search = 1
+let g:syntastic_cpp_auto_refresh_includes = 1
 let g:syntastic_cpp_compiler_options = '-Wall -Wextra -std=c++11'
 
 "

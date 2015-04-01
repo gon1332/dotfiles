@@ -47,7 +47,7 @@ let &path.="src/include,/usr/include/AL,"
 " $ git clone https://github.com/scrooloose/syntastic.git
 " "
 let g:syntastic_c_check_header = 1
-let g:syntastic_c_compiler_options = '-Wall -Wextra -std=c99'
+let g:syntastic_c_compiler_options = '-Wall -Wextra -std=gnu99'
 
 
 "

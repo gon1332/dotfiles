@@ -12,8 +12,6 @@ autocmd! bufwritepost .vimrc source %
 "set pastetoggle=<F2>
 "set clipboard=unnamed
 
-
-" Mouse and backspace
 set mouse=a  " on OSX press ALT and click
 set bs=2     " make backspace behave like normal again
 
@@ -69,15 +67,17 @@ vnoremap > >gv  " better indentation
 
 " Show whitespace
 " MUST be inserted BEFORE the colorscheme command
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=darkred guibg=darkred
 au InsertLeave * match ExtraWhitespace /\s\+$/
 
 
 " Color scheme
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
-set t_Co=256
-color wombat256mod
+set t_Co=257
+colorscheme molokai
+" git clone https://github.com/morhetz/gruvbox.git
+""colorscheme gruvbox
 
 
 " Enable syntax highlighting
@@ -89,12 +89,30 @@ syntax on
 
 " Showing line numbers and length
 set number  " show line numbers
+"set ruler   " show column numbers
 set tw=79   " width of document (used by gd)
 set nowrap  " don't automatically wrap on load
 set fo-=t   " don't automatically wrap text when typing
-set colorcolumn=80
-highlight ColorColumn ctermbg=233
 
+" Clear Line under cursor settings
+"hi clear CursorLine
+"augroup CLClear
+    "autocmd! ColorScheme * hi clear CursorLine
+"    autocmd! ColorScheme * hi CursorLine ctermbg=100 ctermfg=white guibg=100 guifg=white
+"augroup END
+
+"hi CursorLine   cterm=bold ctermbg=0 guibg=0 guifg=white
+hi CursorLineNR cterm=bold
+
+augroup CLNRSet
+    autocmd! ColorScheme * hi CursorLineNR cterm=bold
+augroup END
+
+set cursorline
+
+" Color column
+autocmd! ColorScheme * set colorcolumn=80
+highlight ColorColumn ctermbg=10
 
 " easier formatting of paragraphs
 vmap Q gq
@@ -159,22 +177,22 @@ let g:UltiSnipsEditSplit="vertical" " Split window on that command
 " Settings for vim-airline
 " cd ~/.vim/bundle
 " git clone https://github.com/bling/vim-airline.git
-let g:airline_theme             = 'powerlineish'
-let g:airline_enable_branch     = 1
-let g:airline_enable_syntastic  = 1
+let g:airline_theme                      = 'molokai'
+let g:airline#extensions#branch          = 1
+let g:airline#extensions#syntastic       = 1
 let g:airline#extensions#tabline#enabled = 1
 set laststatus=2
 
 " vim-powerline symbols
-let g:airline_left_sep          = '⮀'
-let g:airline_left_alt_sep      = '⮁'
-let g:airline_right_sep         = '⮂'
-let g:airline_right_alt_sep     = '⮃'
-let g:airline_branch_prefix     = '⭠'
+let g:airline_left_sep          = '▶'
+let g:airline_left_alt_sep      = '»'
+let g:airline_right_sep         = '◀'
+let g:airline_right_alt_sep     = '«'
+let g:airline_branch_prefix     = '⎇'
 let g:airline_readonly_symbol   = '⭤'
 let g:airline_linecolumn_prefix = '⭡'
-let g:airline#extensions#tabline#left_sep = '⮀'
-let g:airline#extensions#tabline#left_alt_sep = '⮁'
+let g:airline#extensions#tabline#left_sep = '▶'
+let g:airline#extensions#tabline#left_alt_sep = '◀'
 
 
 "
