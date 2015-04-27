@@ -38,6 +38,9 @@ ZSH_THEME="robbyrussell"
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="mm/dd/yyyy"
 
+# Prevent from putting duplicate lines in the history
+setopt HIST_IGNORE_DUPS
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
@@ -45,7 +48,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python pip web-search)
+plugins=(git python web-search)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -89,3 +92,5 @@ export M5_PATH=/dist/m5/system
 export M5_PATH=/home/gon1332/Development/full_system_gem5/
 export M5_PATH=/home/gon1332/Development/full_system_gem5
 export M5_PATH=/dist/m5/system
+
+source /home/gon1332/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
