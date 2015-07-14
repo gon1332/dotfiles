@@ -93,4 +93,4 @@ export M5_PATH=/home/gon1332/Development/full_system_gem5/
 export M5_PATH=/home/gon1332/Development/full_system_gem5
 export M5_PATH=/dist/m5/system
 
-source /home/gon1332/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/$USER/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
