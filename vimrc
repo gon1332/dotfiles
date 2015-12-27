@@ -75,7 +75,11 @@ au InsertLeave * match ExtraWhitespace /\s\+$/
 " mkdir -p ~/.vim/colors && cd ~/.vim/colors
 " wget -O wombat256mod.vim http://www.vim.org/scripts/download_script.php?src_id=13400
 set t_Co=257
-colorscheme molokai
+""colorscheme molokai
+
+" cd ~/.vim/colors/
+" git clone https://github.com/joshdick/onedark.vim.git
+colorscheme onedark
 " git clone https://github.com/morhetz/gruvbox.git
 ""colorscheme gruvbox
 
