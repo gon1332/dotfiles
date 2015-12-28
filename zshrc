@@ -85,15 +85,12 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias tmux="TERM=screen-256color-bce tmux"
+
 # Add lib/python subdir for my Python libraries to my Python path
 PYTHONPATH=$HOME/lib/python
 EDITOR=vim
 
 export PYTHONPATH EDITOR
-export M5_PATH=/home/gon1332/full_system_images_gem5
-export M5_PATH=/dist/m5/system
-export M5_PATH=/home/gon1332/Development/full_system_gem5/
-export M5_PATH=/home/gon1332/Development/full_system_gem5
-export M5_PATH=/dist/m5/system
 
 source /home/$USER/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
