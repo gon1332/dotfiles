@@ -12,3 +12,6 @@ fi
 
 # Customize to your needs...
 export PATH=$HOME/bin:$PATH
+
+# aliases
+source $HOME/.aliases
