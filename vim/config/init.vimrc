@@ -10,6 +10,7 @@ Plug 'goatslacker/mango.vim'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'christoomey/vim-tmux-navigator'
 
 " Editing
 Plug 'tpope/vim-fugitive'
