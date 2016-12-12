@@ -26,7 +26,12 @@ map <c-h> <c-w>h
 map <Leader>n <esc>:tabprevious<CR>
 map <Leader>m <esc>:tabnext<CR>
 
+
 " easier moving of code blocks
 " Go into visual mode (v), then select several lines of code and press `>`
 vnoremap < <gv  " better indentation
 vnoremap > >gv  " better indentation
+
+
+" relative line numbers
+nnoremap <Leader>3 :NumbersToggle<CR>

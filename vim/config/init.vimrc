@@ -4,7 +4,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'tomasr/molokai'
 Plug 'junegunn/seoul256.vim'
 Plug 'goatslacker/mango.vim'
-"Plug 'w0ng/vim-hybrid.vim'
+Plug 'w0ng/vim-hybrid'
 
 " General
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
@@ -21,6 +21,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-commentary'
 
 " Eye candy
+Plug 'myusuf3/numbers.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
