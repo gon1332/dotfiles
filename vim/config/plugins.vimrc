@@ -11,3 +11,8 @@ colorscheme molokai
 " UltiSnips
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsEditSplit="vertical"
+
+
+" vim-commentary
+autocmd FileType c   setlocal commentstring=//\ %s
+autocmd FileType cpp setlocal commentstring=//\ %s
