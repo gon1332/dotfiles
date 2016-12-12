@@ -2,7 +2,7 @@
 
 dir=$HOME/dotfiles
 olddir=$HOME/dotfiles_old
-files_dot="vimrc vim zshrc zpreztorc tmux.conf tmux aliases" # files that need dot
+files_dot="vimrc vim zshrc zpreztorc tmux.conf tmux aliases taskrc" # files that need dot
 files="bin" # files that do not need dot
 
 # Backup the current dotfiles
