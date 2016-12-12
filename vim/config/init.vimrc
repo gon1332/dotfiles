@@ -10,10 +10,14 @@ Plug 'goatslacker/mango.vim'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+
+" Tmux
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'tmux-plugins/vim-tmux'
 
 " Editing
 Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-commentary'
 
 " Eye candy
@@ -22,5 +26,6 @@ Plug 'vim-airline/vim-airline-themes'
 
 " C/C++
 Plug 'octol/vim-cpp-enhanced-highlight'
+
 
 call plug#end()

@@ -1,0 +1,27 @@
+pane	0	1	:zsh	0	:-	1	:/home/gon1332/Development/Repositories/runtime	1	zsh	:
+pane	0	1	:zsh	0	:-	2	:/home/gon1332/Development/Repositories/runtime	0	vim	:vim main.c
+pane	0	1	:zsh	0	:-	3	:/home/gon1332/Development/Repositories/runtime	0	vim	:vim todo
+pane	0	2	:vim	1	:*	1	:/home/gon1332/Development/Repositories/runtime/include	0	vim	:vim runtime.h
+pane	0	2	:vim	1	:*	2	:/home/gon1332/Development/Repositories/runtime/src/lib	1	vim	:vim tasktable.c
+pane	0	3	:vim	0	:#	1	:/home/gon1332/Development/Repositories/runtime/3rd-party/gonlibs	1	vim	:vim lib/ADT/hashtable.c
+pane	0	3	:vim	0	:#	2	:/home/gon1332/Development/Repositories/runtime/3rd-party/gonlibs/tests	0	vim	:vim test__adt_hashtable.c
+pane	0	3	:vim	0	:#	3	:/home/gon1332/Development/Repositories/runtime/3rd-party/gonlibs	0	zsh	:
+pane	11	1	:zsh	0	:-	1	:/home/gon1332/Downloads/faggot	0	zsh	:
+pane	11	1	:zsh	0	:-	2	:/home/gon1332/Downloads/faggot	1	zsh	:
+pane	11	2	:zsh	1	:*	1	:/home/gon1332/Downloads/faggot	0	vim	:vim .
+pane	11	2	:zsh	1	:*	2	:/home/gon1332/Downloads/faggot	1	zsh	:
+pane	14	1	:zsh	1	:*	1	:/home/gon1332	1	zsh	:
+pane	15	1	:zsh	1	:*	1	:/home/gon1332	1	zsh	:
+pane	16	1	:zsh	1	:*	1	:/home/gon1332/dotfiles	1	zsh	:
+pane	4	1	:zsh	1	:*	1	:/home/gon1332/dotfiles	1	zsh	:
+pane	4	1	:zsh	1	:*	2	:/home/gon1332/dotfiles/vim/config	0	vim	:vim init.vimrc
+window	0	1	0	:-	6b18,80x23,0,0{39x23,0,0,0,40x23,40,0[40x11,40,0,1,40x11,40,12,2]}
+window	0	2	1	:*	0c91,193x50,0,0{96x50,0,0,3,96x50,97,0,4}
+window	0	3	0	:#	b54e,193x50,0,0{96x50,0,0,9,96x50,97,0[96x25,97,0,10,96x24,97,26,12]}
+window	11	1	0	:-	b6a4,80x23,0,0{40x23,0,0,28,39x23,41,0,29}
+window	11	2	1	:*	f691,80x23,0,0{40x23,0,0,30,39x23,41,0,31}
+window	14	1	1	:*	5764,80x23,0,0,34
+window	15	1	1	:*	5765,80x23,0,0,35
+window	16	1	1	:*	5767,80x23,0,0,37
+window	4	1	1	:*	8e26,193x50,0,0{96x50,0,0,38,96x50,97,0,39}
+state	11	
