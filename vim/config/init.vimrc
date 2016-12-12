@@ -10,6 +10,7 @@ Plug 'goatslacker/mango.vim'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'tpope/vim-fugitive'
 
 " Eye candy
 Plug 'vim-airline/vim-airline'
