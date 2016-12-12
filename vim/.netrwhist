@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/gon1332/dotfiles'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/gon1332/.tmux'
+let g:netrw_dirhist_2='/home/gon1332/.tmux/plugins'
+let g:netrw_dirhist_3='/home/gon1332/.tmux/plugins/tpm'
+let g:netrw_dirhist_4='/home/gon1332/Downloads/faggot'
