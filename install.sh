@@ -22,20 +22,20 @@ echo "done"
 # specified in $files.
 for file in $files_dot;
 do
-	echo -n "    - Move $HOME/$file to $olddir ..."
+	echo -n "    - $HOME/.$file ==> $olddir ..."
 	mv $HOME/.$file $olddir
 	echo "done"
-	echo -n "    + Creating symlink to $file in home directory ..."
+	echo -n "    + $HOME/.$file ~~> $file ..."
     ln -s $dir/$file $HOME/.$file
 	echo "done"
 done
 
 for file in $files;
 do
-	echo -n "    - Move $HOME/$file to $olddir ..."
+	echo -n "    - $HOME/$file ==> $olddir ..."
 	mv $HOME/$file $olddir
 	echo "done"
-	echo -n "    + Creating symlink to $file in home directory ..."
+	echo -n "    + $HOME/$file ~~> $file ..."
     ln -s $dir/$file $HOME/$file
 	echo "done"
 done
