@@ -2,8 +2,10 @@
 
 dir=$HOME/dotfiles
 olddir=$HOME/dotfiles_old
-files_dot="vimrc vim zshrc zpreztorc tmux.conf tmux aliases taskrc" # files that need dot
-files="bin" # files that do not need dot
+# files that need dot
+files_dot="vimrc vim zshrc zpreztorc tmux.conf tmux aliases taskrc gitconfig"
+# files that do not need dot
+files="bin"
 
 # Backup the current dotfiles
 echo -n "Creating $olddir for backup of any existing dotfiles in $HOME ..."
