@@ -9,7 +9,7 @@ set showtabline=2	" always show tabline
 set noshowmode		" hide default mode text (e.g. INSERT) as airline already displays it
 
 " airline config
-let g:airline_theme = 'molokai'
+let g:airline_theme = 'minimalist'
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1  " buffers at the top as tabs
 let g:airline#extensions#tabline#show_tabs=1

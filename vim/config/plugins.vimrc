@@ -1,11 +1,9 @@
 filetype plugin indent on	" load filetype-specific indent files
 
 
-" molokai
+" minimalist
 set t_Co=257
-let g:molokai_original = 1
-let g:rehash256 = 1
-colorscheme molokai
+colorscheme minimalist
 
 
 " UltiSnips

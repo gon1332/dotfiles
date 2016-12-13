@@ -5,6 +5,8 @@ Plug 'tomasr/molokai'
 Plug 'junegunn/seoul256.vim'
 Plug 'goatslacker/mango.vim'
 Plug 'w0ng/vim-hybrid'
+Plug 'davb5/wombat256dave'
+Plug 'dikiaap/minimalist'
 
 " General
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
