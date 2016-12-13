@@ -22,9 +22,8 @@ set lazyredraw  " redraw only whe we need to
 set showmatch   " highlight matching [{()}]
 
 if has('mouse')
-    set mouse=a     " use mouse
+    set mouse=a " use mouse
 endif
-
 
 
 " Searching
@@ -44,3 +43,8 @@ set foldenable          " enable folding
 set foldlevelstart=10   " open most folds by default
 set foldnestmax=10      " 10 nested fold max
 set foldmethod=indent   " fold based on indent level
+
+
+" Text wrapping
+set nowrap              " do not automatically wrap on load
+set formatoptions-=t    " do not automatically wrap text when typing
