@@ -16,3 +16,7 @@ let g:UltiSnipsEditSplit="vertical"
 " vim-commentary
 autocmd FileType c   setlocal commentstring=//\ %s
 autocmd FileType cpp setlocal commentstring=//\ %s
+
+
+" DoxyGen-Syntax
+let g:load_doxygen_syntax = 1

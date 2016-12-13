@@ -28,5 +28,7 @@ Plug 'vim-airline/vim-airline-themes'
 " C/C++
 Plug 'octol/vim-cpp-enhanced-highlight'
 
+" Doxygen
+Plug 'vim-scripts/DoxyGen-Syntax'
 
 call plug#end()
