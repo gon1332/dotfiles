@@ -10,6 +10,7 @@ Plug 'w0ng/vim-hybrid'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
+Plug 'mileszs/ack.vim'
 
 " Tmux
 Plug 'christoomey/vim-tmux-navigator'

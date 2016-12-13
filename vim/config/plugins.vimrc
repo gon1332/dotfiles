@@ -20,3 +20,9 @@ autocmd FileType cpp setlocal commentstring=//\ %s
 
 " DoxyGen-Syntax
 let g:load_doxygen_syntax = 1
+
+
+" Ack
+if executable('ag')
+    let g:ackprg = 'ag --vimgrep'
+endif
