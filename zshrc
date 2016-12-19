@@ -13,5 +13,7 @@ fi
 # Customize to your needs...
 export PATH=$HOME/bin:$PATH
 
+export EDITOR=vim
+
 # aliases
 source $HOME/.aliases
