@@ -27,6 +27,7 @@ Plug 'tpope/vim-commentary'
 Plug 'myusuf3/numbers.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'ryanoasis/vim-devicons'
 
 " C/C++
 Plug 'octol/vim-cpp-enhanced-highlight'
