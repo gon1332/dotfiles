@@ -24,10 +24,10 @@ For a complete list of plugins refer [here](https://github.com/gon1332/dotfiles/
 
 ## Installation
 ### 0. Tools:
-These settings work well with these versions:
-  * `Tmux` (2.1)
-  * `Zsh` (5.1.1)
-  * `Vim` (7.4)
+These settings are tested with these versions:
+  * `Tmux` (2.6)
+  * `Zsh` (5.4.2)
+  * `Vim` (8.0)
 
 ### 1. Clone the current repo at `$HOME`:
 ~~~
