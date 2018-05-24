@@ -24,7 +24,7 @@ For a complete list of plugins refer [here](https://github.com/gon1332/dotfiles/
 
 ## Installation
 ### 0. Tools:
-These settings are tested with these versions:
+These settings have been tested with these versions:
   * `Tmux` (2.6)
   * `Zsh` (5.4.2)
   * `Vim` (8.0)
