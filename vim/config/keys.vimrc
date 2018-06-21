@@ -34,7 +34,8 @@ vnoremap > >gv  " better indentation
 
 
 " relative line numbers
-nnoremap <Leader>3 :NumbersToggle<CR>
+nnoremap <F3> :NumbersToggle<CR>
+nnoremap <F4> :NumbersOnOff<CR>
 
 
 " open ack.vim
