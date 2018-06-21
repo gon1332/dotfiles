@@ -22,6 +22,9 @@ My portable settings for zsh, vim and tmux.
 
 For a complete list of plugins refer [here](https://github.com/gon1332/dotfiles/blob/master/vim/config/init.vimrc).
 
+#### Devicons and fonts
+Be sure to install your favorite [nerd-fonts](https://github.com/ryanoasis/nerd-fonts) for a full experience.
+
 ## Installation
 ### 0. Tools:
 These settings have been tested with these versions:
