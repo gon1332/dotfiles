@@ -9,6 +9,7 @@ Plug 'davb5/wombat256dave'
 Plug 'dikiaap/minimalist'
 
 " General
+Plug 'mhinz/vim-startify'
 Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
