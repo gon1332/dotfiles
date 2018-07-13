@@ -6,6 +6,8 @@ olddir=$HOME/dotfiles_old
 files_dot="vimrc vim zshrc zpreztorc tmux.conf tmux aliases taskrc gitconfig"
 # files that do not need dot
 files="bin"
+# files included in ~/.config
+files_config="redshift"
 
 # Backup the current dotfiles
 echo -n "Creating $olddir for backup of any existing dotfiles in $HOME ..."
@@ -37,5 +39,15 @@ do
 	echo "done"
 	echo -n "    + $HOME/$file ~~> $file ..."
     ln -s $dir/$file $HOME/$file
+	echo "done"
+done
+
+for file in $files_config;
+do
+	echo -n "    - $HOME/.config/$file ==> $olddir ..."
+	mv $HOME/.config/$file $olddir
+	echo "done"
+	echo -n "    + $HOME/.config/$file ~~> $file ..."
+    ln -s $dir/$file $HOME/.config/$file
 	echo "done"
 done

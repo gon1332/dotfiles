@@ -13,6 +13,9 @@ fi
 # Customize to your needs...
 export PATH=$HOME/bin:$PATH
 
+# For redshift
+export XDG_CONFIG_HOME=$HOME/.config
+
 export EDITOR=vim
 
 # aliases
