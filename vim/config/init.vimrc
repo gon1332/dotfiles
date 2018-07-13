@@ -33,6 +33,9 @@ Plug 'ryanoasis/vim-devicons'
 " C/C++
 Plug 'octol/vim-cpp-enhanced-highlight'
 
+" Rust
+Plug 'rust-lang/rust.vim'
+
 " Doxygen
 Plug 'vim-scripts/DoxyGen-Syntax'
 
