@@ -23,6 +23,7 @@ Plug 'tmux-plugins/vim-tmux'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-commentary'
+Plug 'w0rp/ale'
 
 " Eye candy
 Plug 'myusuf3/numbers.vim'
