@@ -20,3 +20,5 @@ export EDITOR=vim
 
 # aliases
 source $HOME/.aliases
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
