@@ -1,1 +1,4 @@
 alias tmux="TERM=screen-256color-bce tmux"
+
+# tizonia
+alias yt-mix="tizonia --youtube-audio-mix-search"
