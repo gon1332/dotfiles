@@ -1,0 +1,14 @@
+#!/bin/sh 
+
+if [ ! -n "$1" ]; then
+    echo "Syntax is: fmtc filename(s)"
+    echo "Example: fmtc main.c"
+    echo "         fmtc *.c"
+    exit 1
+fi
+
+for i in "$@";
+do
+    uncrustify --replace --no-backup -l C -c $HOME/bin/uncrustify.cfg $i
+done
+echo "Done"
