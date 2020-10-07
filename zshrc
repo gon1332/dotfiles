@@ -18,6 +18,9 @@ export XDG_CONFIG_HOME=$HOME/.config
 
 export EDITOR=vim
 
+# For tmux
+[[ $TMUX = "" ]] && export TERM="xterm-256color"
+
 # aliases
 source $HOME/.aliases
 
