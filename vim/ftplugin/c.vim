@@ -22,4 +22,4 @@ augroup END
 " Setting path variable
 " gf command. Really usefull for inspecting header files
 " Ctrl-O to return from gf.
-let &path.="include,src/include,/usr/include/AL"
+let &path.="include,Inc,src/include,/usr/include/AL"
