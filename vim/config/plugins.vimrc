@@ -40,3 +40,6 @@ let g:ale_linters = {
 \   'c': ['clangd', 'uncrustify'],
 \   'python': ['flake8'],
 \}
+
+" vim-devicons
+set encoding=UTF-8
